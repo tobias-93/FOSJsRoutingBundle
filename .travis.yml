@@ -11,6 +11,8 @@ matrix:
 
 sudo: false
 
+node_js: "lts/*"
+
 cache:
   directory:
     - .phpunit
